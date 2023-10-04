@@ -175,10 +175,10 @@ button:hover {
         width: 100%;
         background-color: rgba(84, 22, 22, 0.8);
         color: white;
-        font-size: 0.6rem;
+        font-size: 0.8rem;
         justify-content: center;
         align-items: center;
-        padding: 0.4rem;
+        padding: 0.3rem;
         position: fixed;
         top: 0;
         left: 0;
@@ -187,7 +187,6 @@ button:hover {
     .header .logo {
         margin-left: 0.5rem;
         margin-right: auto;
-        font-size: 1.25rem;
     }
 
     .header .logo .image-logo {
@@ -198,7 +197,7 @@ button:hover {
     .header .nav-bar ul{
         display: flex;
         flex-direction: row;
-        gap: 10px;
+        gap: 5px;
         list-style-type: none;
         margin-right: 1rem;
     
