@@ -28,7 +28,7 @@ export function homeContent(){
     footer.classList.add('footer');
     const footerContent = document.createElement('div');
     footerContent.classList.add('footer-content');
-    footerContent.textContent = 'Copyright';
+    footerContent.textContent = 'Copyright @averageC0deEnjoyer';
     footer.append(footerContent);
     divContent.append(footer);
 
