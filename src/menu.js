@@ -3,10 +3,7 @@ import gulaiImage from './gulai.jpeg';
 import fishImage from './fish.jpeg';
 import riceImage from './rice.jpeg';
 export function menuContent(){
-    const divContent = document.querySelector('#content');
-
-    const main = document.createElement('div');
-    main.classList.add('main');
+    const main = document.querySelector('.main');
     const mainContentMenu = document.createElement('div');
     mainContentMenu.classList.add('main-content-menu');
     const menuDescription = document.createElement('div');
@@ -64,15 +61,5 @@ export function menuContent(){
     mainContentMenu.append(menu3Description);
     mainContentMenu.append(menu4Description);
     main.append(mainContentMenu);
-    divContent.append(main);
-
-
-    const footer = document.createElement('div');
-    footer.classList.add('footer');
-    const footerContent = document.createElement('div');
-    footerContent.classList.add('footer-content');
-    footerContent.textContent = 'Copyright @averageC0deEnjoyer';
-    footer.append(footerContent);
-    divContent.append(footer);
 
 }

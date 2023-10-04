@@ -36,7 +36,7 @@ export function initialContent(){
     listWrapper.append(li3);
     navBar.append(listWrapper);
     header.append(navBar);
-    document.body.append(header);
+    divContent.append(header);
 
 
     const main = document.createElement('div');

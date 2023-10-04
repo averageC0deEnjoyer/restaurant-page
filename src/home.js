@@ -2,9 +2,7 @@ import foodImage from './food.jpg';
 import logoImage from './logo.png';
 
 export function homeContent(){
-    const divContent = document.querySelector('#content');
-    const main = document.createElement('div');
-    main.classList.add('main');
+    const main = document.querySelector('.main');
     const mainContentHome = document.createElement('div');
     mainContentHome.classList.add('main-content-home');
     const content1 = document.createElement('p');
@@ -21,15 +19,5 @@ export function homeContent(){
     mainContentHome.append(food);
     mainContentHome.append(content3);
     main.append(mainContentHome);
-    divContent.append(main);
-
-
-    const footer = document.createElement('div');
-    footer.classList.add('footer');
-    const footerContent = document.createElement('div');
-    footerContent.classList.add('footer-content');
-    footerContent.textContent = 'Copyright @averageC0deEnjoyer';
-    footer.append(footerContent);
-    divContent.append(footer);
 
 }

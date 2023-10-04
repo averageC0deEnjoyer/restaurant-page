@@ -6,12 +6,12 @@ import { initialContent } from './initial-content.js'
 
 initialContent(); //dont put header inside mainbody. because event listener wont work if you rerender the button
 
-let divContent = document.querySelector('#content');
+let mainContent = document.querySelector('.main');
 
 let homeBtn = document.querySelector('.home')
 homeBtn.addEventListener('click', () => {
-    while (divContent.hasChildNodes()) {
-        divContent.removeChild(divContent.firstChild);
+    while (mainContent.hasChildNodes()) {
+        mainContent.removeChild(mainContent.firstChild);
       };
     homeContent();
     }
@@ -19,8 +19,8 @@ homeBtn.addEventListener('click', () => {
 
 let menuBtn = document.querySelector('.menu')
 menuBtn.addEventListener('click', () => {
-    while (divContent.hasChildNodes()) {
-        divContent.removeChild(divContent.firstChild);
+    while (mainContent.hasChildNodes()) {
+        mainContent.removeChild(mainContent.firstChild);
       }
     menuContent();
     }
@@ -28,8 +28,8 @@ menuBtn.addEventListener('click', () => {
 
 let contactBtn = document.querySelector('.contact')
 contactBtn.addEventListener('click', () => {
-    while (divContent.hasChildNodes()) {
-        divContent.removeChild(divContent.firstChild);
+    while (mainContent.hasChildNodes()) {
+        mainContent.removeChild(mainContent.firstChild);
       }
     contactContent();
     }   
