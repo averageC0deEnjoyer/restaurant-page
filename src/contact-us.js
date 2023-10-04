@@ -9,10 +9,10 @@ export function contactContent(){
     main.classList.add('main');
     const mainContentContact = document.createElement('div');
     mainContentContact.classList.add('main-content-contact-us');
-    const mapsImg = new Image();
-    mapsImg.src = downloadImage;
-    mapsImg.classList.add('contact-us');
-    mainContentContact.append(mapsImg);
+    const catImg = new Image();
+    catImg.src = downloadImage;
+    catImg.classList.add('contact-us');
+    mainContentContact.append(catImg);
     main.append(mainContentContact);
     divContent.append(main);
 
