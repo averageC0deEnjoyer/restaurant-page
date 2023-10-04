@@ -1,5 +1,5 @@
-import mapsImage from './maps.jpg';
-import logoImage from './logo.png';
+// import mapsImage from './maps.jpg';
+import downloadImage from './download.jpeg'
 
 export function contactContent(){
     const divContent = document.querySelector('#content');
@@ -10,7 +10,7 @@ export function contactContent(){
     const mainContentContact = document.createElement('div');
     mainContentContact.classList.add('main-content-contact-us');
     const mapsImg = new Image();
-    mapsImg.src = mapsImage;
+    mapsImg.src = downloadImage;
     mapsImg.classList.add('contact-us');
     mainContentContact.append(mapsImg);
     main.append(mainContentContact);
