@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(restaurant.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Montserrat', cursive;
+    font-size: 1.6rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    background-color: rgba(84, 22, 22, 0.8);
+    color: white;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.header .logo {
+    margin-left: 1rem;
+    margin-right: auto;
+    font-size: 2.5rem;
+}
+
+.header .logo .image-logo {
+    width: 200px;
+    height: 75px;
+}
+
+.header .nav-bar ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style-type: none;
+    margin-right: 1rem;
+  
+}
+
+.main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.main-content-home {
+    background-color: rgba(247,194,194,0.8);
+    width: clamp(250px, 500px, 750px);
+    height: clamp(250px, 500px, 750px);
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content-menu {
+    background-color: rgba(247,194,194,0.6);
+    gap: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-evenly;
+    place-items: center;
+    border-radius: 10px;
+}
+
+.main-content-menu .menu-description {
+    background-color: rgba(247,194,194,0.7);
+    width: clamp(100px, 200px, 300px);
+    height: clamp(100px, 200px, 300px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.main-content-contact-us {
+    background-color: rgba(247,194,194,0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact-us {
+    width: 750px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.footer {
+    margin-top: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #c64242;
+    opacity: 0.8;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+
+.food-image-home {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+
+.food-image-menu {
+    width: 75px;
+    height: 75px;
+    border-radius: 37.5px;
+}
+
+button {
+    color: white;
+    border: none;
+    font-size: 2rem;
+    background: none;
+}
+
+button:hover {
+    cursor:pointer;
+}
